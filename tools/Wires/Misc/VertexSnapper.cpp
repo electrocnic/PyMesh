@@ -7,6 +7,10 @@
 #include <MeshUtils/ShortEdgeRemoval.h>
 #include "BoxChecker.h"
 
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 using namespace PyMesh;
 
 void VertexSnapper::snap_vertices_to_border(

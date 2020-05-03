@@ -6,6 +6,10 @@
 #include <Core/Exception.h>
 #include <Wires/WireNetwork/WireNetwork.h>
 
+#ifndef M_PI
+  #define M_PI 3.14159265358979323846
+#endif
+
 using namespace PyMesh;
 
 namespace WireVertexMinAngleAttributeHelper {

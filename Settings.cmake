@@ -5,6 +5,8 @@ if(CCACHE_FOUND)
     MESSAGE(STATUS "ccache enabled")
 endif(CCACHE_FOUND)
 
+cmake_policy(SET CMP0074 NEW)
+
 # Set output directories
 SET(LIBRARY_OUTPUT_PATH    ${PROJECT_SOURCE_DIR}/python/pymesh/lib)
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
