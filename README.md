@@ -3,11 +3,9 @@
 [![Documentation Status](https://readthedocs.org/projects/pymesh/badge/?version=latest)](https://pymesh.readthedocs.io/en/latest/?badge=latest)
 
 
-## PyMesh CYGWIN Windows x32/x64
+# PyMesh CYGWIN Windows x32/x64
 
-### Build with CYGWIN from source - Instructions !
-
-## Build Dependencies for PyMesh
+## Build with CYGWIN from source - Instructions !
 
 ### Prerequesites
 
