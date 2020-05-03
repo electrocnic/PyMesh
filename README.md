@@ -11,19 +11,19 @@
 
 1. Download and install Cygwin from https://cygwin.com/install.html
 During the installation there are a lot of packages which are not added by default, even if you check boxes which should add all packages.
-Therefore add the libraries (and their latest versions):
-1.1 libtool
-1.2 make
-1.3 m4
-1.4 gcc-core
-1.5 gcc-g++
-1.6 libgcc
-1.7 cmake
-1.8 mpfr
-1.9 libmpfr-devel
-1.10 libOpenCL1
-1.11 libboost-devel
-1.12 python3-devel
+Therefore add the libraries (and their latest versions):<br>
+1.1 libtool<br>
+1.2 make<br>
+1.3 m4<br>
+1.4 gcc-core<br>
+1.5 gcc-g++<br>
+1.6 libgcc<br>
+1.7 cmake<br>
+1.8 mpfr<br>
+1.9 libmpfr-devel<br>
+1.10 libOpenCL1<br>
+1.11 libboost-devel<br>
+1.12 python3-devel<br>
 
 ![Cygwin package installation libtool](documentation/cygwin_setup_libtool.png?raw=true)
 ![Cygwin package installation make](documentation/cygwin_setup_make.png?raw=true)
@@ -48,7 +48,7 @@ https://stackoverflow.com/a/52102540/3433137
 (not needed eventally:
 x. `export PATH="/cygdrive/c/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx64/x64:${PATH}"` (or wherever on your system `lib.exe` is located, and choose the correct bit version of the folders))
 
-# PyMesh
+### Build PyMesh
 
 1. `cd third_party`
 2. `python build.py all`
