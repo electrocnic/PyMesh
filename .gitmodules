@@ -4,7 +4,7 @@
 	shallow = true
 [submodule "third_party/cork"]
 	path = third_party/cork
-	url = https://github.com/PyMesh/cork.git
+	url = https://github.com/electrocnic/cork.git
 	shallow = true
 [submodule "third_party/tetgen"]
 	path = third_party/tetgen
@@ -24,7 +24,7 @@
 	shallow = true
 [submodule "third_party/eigen"]
 	path = third_party/eigen
-	url = https://github.com/PyMesh/eigen.git
+	url = https://github.com/electrocnic/eigen.git
 	shallow = true
 [submodule "third_party/quartet"]
 	path = third_party/quartet
@@ -32,7 +32,7 @@
 	shallow = false
 [submodule "third_party/cgal"]
 	path = third_party/cgal
-	url = https://github.com/PyMesh/cgal.git
+	url = https://github.com/electrocnic/cgal.git
 	shallow = false
 [submodule "third_party/pybind11"]
 	path = third_party/pybind11
@@ -60,11 +60,11 @@
 	shallow = true
 [submodule "third_party/tbb"]
 	path = third_party/tbb
-	url = https://github.com/PyMesh/tbb.git
+	url = https://github.com/electrocnic/tbb.git
 	shallow = true
 [submodule "libigl"]
 	path = third_party/libigl
-	url = https://github.com/PyMesh/libigl.git
+	url = https://github.com/electrocnic/libigl.git
 	shallow = true
 [submodule "third_party/jigsaw"]
 	path = third_party/jigsaw
